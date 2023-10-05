@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./dist/*.html'],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        '18': '4.5rem',
+      }
+    },
   },
   variants: {
     extend: {},
